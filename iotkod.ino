@@ -8,11 +8,13 @@
 #include <LiquidCrystal_I2C.h>
 #include <HTTPClient.h>
 
-***REMOVED***;
-***REMOVED***;
-***REMOVED***;
+#include "arduino_secrets.h"
 
-String sheetURL = "***REMOVED***";
+char auth[] = SECRET_BLYNK_AUTH;
+char ssid[] = SECRET_WIFI_SSID;
+char pass[] = SECRET_WIFI_PASS;
+
+String sheetURL = SECRET_SHEET_URL;
 
 #define DHTPIN 26
 #define DHTTYPE DHT11

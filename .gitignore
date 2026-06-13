@@ -1,0 +1,17 @@
+# Arduino sirlari - gercek kimlik bilgileri (ASLA commit etmeyin)
+arduino_secrets.h
+
+# Ornek sablon versiyon kontrolunde kalmalidir
+!arduino_secrets.h.example
+
+# Derleme ciktilari
+build/
+*.bin
+*.elf
+*.hex
+*.map
+
+# Editor / OS dosyalari
+desktop.ini
+.DS_Store
+.vscode/
